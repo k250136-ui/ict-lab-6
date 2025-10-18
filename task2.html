@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form>
+
+        <label for="familyName">Family name</label>
+        <input type="text" id="familyName" class="input-field" name="familyName" placeholder="Family name"><br>
+
+        <label for="otherName">Other name</label>
+        <input type="text" id="otherName" class="input-field" name="otherName" placeholder="Other names"><br>
+
+        <label for="address">Address</label>
+        <input type="text" id="address" class="input-field" name="address" placeholder="Address"><br>
+
+        <label for="suburb">Suburb</label>
+        <input type="text" id="suburb" class="input-field" name="suburb" placeholder="Suburb"><br>
+
+        <label for="state">State/Territory</label>
+        <select id="state" class="input-field" name="state">
+            <option value="">Select State</option>
+            <option value="VIC">VIC</option>
+            <option value="NSW">NSW</option>
+            <option value="QLD">QLD</option>
+        </select><br><br>
+
+        <label>Course Info On:</label><br>
+        <input type="checkbox" id="eng" name="course" value="Engineering"> <label for="eng">Engineering</label><br>
+        <input type="checkbox" id="it" name="course" value="IT"> <label for="it">IT</label><br>
+        <input type="checkbox" id="law" name="course" value="Law"> <label for="law">Law</label><br>
+        <input type="checkbox" id="med" name="course" value="Medicine"> <label for="med">Medicine</label><br>
+        <input type="checkbox" id="nursing" name="course" value="Nursing"> <label for="nursing">Nursing</label><br><br>
+
+        <label>Degree:</label><br>
+        <input type="radio" id="diploma" name="degree" value="Diploma"> <label for="diploma">Diploma</label><br>
+        <input type="radio" id="degree" name="degree" value="Degree"> <label for="degree">Degree</label><br>
+        <input type="radio" id="honours" name="degree" value="Honours"> <label for="honours">Honours</label><br>
+        <input type="radio" id="masters" name="degree" value="Masters"> <label for="masters">Masters</label><br>
+        <input type="radio" id="phd" name="degree" value="PhD"> <label for="phd">PhD</label><br><br>
+
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" class="comments-box" name="comments"></textarea><br>
+
+        <div class="btn-container">
+            <button type="submit">Submit</button>
+            <button type="reset">Clear Form</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
