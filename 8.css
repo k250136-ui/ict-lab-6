@@ -1,0 +1,30 @@
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #e4b5f4;
+        }
+
+        .animal-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .animal-box {
+            width: 200px;
+        }
+
+        .animal-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover; 
+            border-radius: 8px;
+            border: 2px solid #555;
+        }
+
+        .animal-name {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
