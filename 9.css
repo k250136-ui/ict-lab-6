@@ -1,0 +1,45 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .header {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            color: rgb(3, 3, 139);
+            height: 400px; /* You can change the height */
+        }
+
+        .left {
+            background-color: #ff00ff; /* Pink */
+            flex: 1;
+            padding-top: 150px;
+        }
+
+        .center {
+            background-color: red;
+            flex: 3;
+            padding-top: 150px;
+        }
+
+        .right {
+            background-color: #00ff00; /* Light Green */
+            flex: 1;
+            padding-top: 150px;
+        }
+
+        .footer {
+            background-color: green;
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
