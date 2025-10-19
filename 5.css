@@ -1,0 +1,34 @@
+body{
+    background-color: #a6d9f7;
+    font-family: 'Times New Roman', Times, serif;
+    } 
+    table {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+        text-align: center;
+        }
+
+    th, td {
+        border: 2px solid black;
+        padding: 10px;
+        }
+
+    th {
+        background-color: #4b62ca;
+        color: white;
+        }
+
+    .days {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        }
+
+    .break {
+        background-color: #c6e459;
+        font-weight: bold;
+        }
+
+    h2 {
+        text-align: center;
+        }
